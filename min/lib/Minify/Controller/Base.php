@@ -244,7 +244,6 @@ abstract class Minify_Controller_Base {
      * @return null
      */
     public function log($msg) {
-        require_once 'Minify/Logger.php';
         Minify_Logger::log($msg);
     }
 }
