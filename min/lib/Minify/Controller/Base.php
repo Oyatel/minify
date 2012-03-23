@@ -100,8 +100,7 @@ abstract class Minify_Controller_Base {
         if (is_array($minifierCallback)
             && is_string($minifierCallback[0])
             && !class_exists($minifierCallback[0], false)) {
-            
-            require str_replace('_', '/', $minifierCallback[0]) . '.php';
+           throw new Exception('Autoload failed. Could not load class: ' . $minifierCallback[0]); 
         }
     }
     
