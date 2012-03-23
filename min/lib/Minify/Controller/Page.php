@@ -77,8 +77,6 @@ class Minify_Controller_Page extends Minify_Controller_Base {
         if ($this->_loadCssJsMinifiers) {
             // Minify will not call for these so we must manually load
             // them when Minify/HTML.php is called for.
-            require_once 'Minify/CSS.php';
-            require_once 'JSMin.php';
         }
         parent::loadMinifier($minifierCallback); // load Minify/HTML.php
     }
