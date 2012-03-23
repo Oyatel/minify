@@ -5,11 +5,6 @@
  */
 
 /**
- * Minify_Source
- */
-require_once 'Minify/Source.php';
- 
-/**
  * Minify - Combines, minifies, and caches JavaScript and CSS files on demand.
  *
  * See README for usage instructions (for now).

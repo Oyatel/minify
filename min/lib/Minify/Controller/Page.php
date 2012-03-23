@@ -4,7 +4,6 @@
  * @package Minify
  */
 
-require_once 'Minify/Controller/Base.php';
 
 /**
  * Controller class for serving a single HTML page
