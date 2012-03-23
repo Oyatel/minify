@@ -99,7 +99,7 @@ abstract class Minify_Controller_Base {
     {
         if (is_array($minifierCallback)
             && is_string($minifierCallback[0])
-            && !class_exists($minifierCallback[0], false)) {
+            && !class_exists($minifierCallback[0], true)) {
            throw new Exception('Autoload failed. Could not load class: ' . $minifierCallback[0]); 
         }
     }
