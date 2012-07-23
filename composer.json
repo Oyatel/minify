@@ -22,12 +22,6 @@
       "name": "Even Andre Fiskvik",
       "email": "eaf@oyatel.com",
       "role": "Mantainer, Composer Adaptation"
-    },
-    {
-      "name": "Estevão Soares dos Santos",
-      "email": "estevao.santos@ci2.pt",
-      "homepage": "http://www.ci2.pt/",
-      "role": "Mantainer, Composer Adaptation"
     }
   ],
   "autoload": {
