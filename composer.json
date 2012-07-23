@@ -1,14 +1,36 @@
 {
-    "name": "oyatel/minify",
-    "description": "Minify is a PHP5 app that helps you follow several rules for client-side performance. It combines multiple CSS or Javascript files, removes unnecessary whitespace and comments, and serves them with gzip encoding and optimal client-side cache headers",
-    "authors": [
-        {
-            "name": "Even Andre Fiskvik",
-            "email": "eaf@oyatel.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "classmap": ["min/lib/"]
+  "name": "minify/minify",
+  "description": "Minify is a PHP5 app that helps you follow several rules for client-side performance. It combines multiple CSS or Javascript files, removes unnecessary whitespace and comments, and serves them with gzip encoding and optimal client-side cache headers",
+  "keywords": ["js","javascript"],
+  "homepage": "http://code.google.com/p/minify/",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ryan Groove",
+      "email": "ryan@wonko.com",
+      "homepage": "http://code.google.com/p/minify/",
+      "role": "Original Author"
+    },
+    {
+      "name": "Steve Clay",
+      "email": "steve@mrclay.org",
+      "homepage": "http://code.google.com/p/minify/",
+      "role": "Original Author"
+    },
+    {
+      "name": "Even Andre Fiskvik",
+      "email": "eaf@oyatel.com",
+      "role": "Mantainer, Composer Adaptation"
+    },
+    {
+      "name": "Estevão Soares dos Santos",
+      "email": "estevao.santos@ci2.pt",
+      "homepage": "http://www.ci2.pt/",
+      "role": "Mantainer, Composer Adaptation"
     }
+  ],
+  "autoload": {
+    "classmap": ["min/lib/"]
+  }
 }
