@@ -8,6 +8,9 @@ Version 2.1.5
     * more efficient JS minification when using CC/YUIC
     * Closure Compiler uses cURL when allow_url_fopen is off
     * Missing file notices when using groups
+    * Changed README.txt to README.md, styling it to markdown
+    * Removed local file requires
+    * Added composer.json for packaging management with composer 
 
 Version 2.1.4
     * Option to minify JS with Closure Compiler API w/ JSMin failover
